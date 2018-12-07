@@ -1,0 +1,137 @@
+/*
+d0efb1 - tea green
+b3d89c - granny smith apple
+9dc3c2 - cambridge blue
+77a6b6 - moonstone blue
+4d7298 - blue yonder
+*/ 
+body,html{
+	background-color: #4d7298;
+	height: 100%;
+	margin: 0;
+}
+p,h1,h2,h3,h4,h5,h6{
+	color: #B3D89C;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+footer{
+	color: #9DC3C2;
+	margin-left: 10px;
+	margin-bottom: 7px;
+	margin-top: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+}
+.unfinished{
+	text-align: center;
+	margin-top: 150px;
+}
+.location{
+	margin-top: 150px;
+}
+.location2{
+	margin-top: 195px;
+	text-align: right;
+	padding: 35px;
+}
+.locationimg{
+	position: absolute;
+	margin-left: 10px;
+}
+.bg1, .bg2 {     
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	opacity: .45;
+	z-index: 1;
+	margin: 0px;
+	position: relative;
+}
+.bg1{
+	background-image: url(imgs/sparksparabg.jpg);
+	height:100%; 
+}
+.bg2 {
+	background-image: url(imgs/bread.jpg);
+    min-height:600px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.headings{
+	margin-bottom: 25px;
+	text-align: center;
+}
+.sidepanel {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: black; /*Black*/
+    overflow-x: hidden; /*Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	width: 125px;
+}
+
+
+.sidepanel a:hover {
+    color: #B3D89C;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: -84px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #4d7298;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 10px;
+  margin-top: -5px;
+  z-index: 2;
+  position: fixed;
+}
+
+.openbtn:hover {
+  background-color: #424242;
+}
+.home-about{
+	text-align: center;
+	font-size: 16pt;
+}
